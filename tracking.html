@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacak Pesanan - Sistem Packing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Lacak Pesanan Anda</h2>
+            <form id="tracking-form">
+                <div class="form-group">
+                    <label for="tracking-number">Masukkan Nomor Resi</label>
+                    <input type="text" id="tracking-number" placeholder="Contoh: PKG167..." required>
+                </div>
+                <button type="submit" class="btn">Lacak</button>
+            </form>
+            <div id="tracking-result" class="tracking-result">
+                <!-- Hasil pelacakan akan muncul di sini -->
+            </div>
+             <div class="navigation-links">
+                <a href="login.html">Login Admin</a> | <a href="order.html">Buat Pesanan</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" defer></script>
+</body>
+</html>

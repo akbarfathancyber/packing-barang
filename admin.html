@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Admin - Sistem Packing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-full">
+        <header class="admin-header">
+            <h1>Dashboard Admin</h1>
+            <button id="logout-btn" class="btn btn-danger">Logout</button>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Daftar Semua Pesanan</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No. Resi</th>
+                                <th>Nama Pengirim</th>
+                                <th>Barang</th>
+                                <th>Jenis Packing</th>
+                                <th>Berat (kg)</th>
+                                <th>Status</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orders-tbody">
+                            <!-- Data pesanan akan dimuat di sini oleh JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/app.js" defer></script>
+</body>
+</html>
